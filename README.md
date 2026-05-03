@@ -80,6 +80,16 @@ After the report, the skill asks whether to apply fixes immediately, run waves w
 - Use **`/audit`** for technical quality (a11y, performance, anti-patterns) on a single surface.
 - Use **`/polish`** for the final pre-ship micro-pass on one feature.
 
+## Contributing
+
+This is a **markdown-only skill** — no CLI binary, no companion executable, no runtime code. The behavior lives entirely in [`skills/consistent-ui/SKILL.md`](skills/consistent-ui/SKILL.md), which Claude Code loads directly. As a result:
+
+- The [CLI hint protocol](https://code.claude.com/docs/en/cli-hint) (`<claude-code-hint />` markers on stderr) does **not** apply here. There is no CLI to emit one from.
+- Improvements should be made by editing `SKILL.md` directly. New stack profiles, detection patterns, and dimension checks all live in that single file (see Appendix A for the per-stack pattern table).
+- Bumps to `version` must be made in **both** `.claude-plugin/plugin.json` and `.claude-plugin/marketplace.json` to keep the manifests in sync.
+
+PRs welcome.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
