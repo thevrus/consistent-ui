@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "consistent-ui",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Enforce UI consistency across an entire codebase — detects drift in spacing, typography, colors, components, iconography, and interaction patterns across web, native mobile, and server-rendered templates. Generates a P0-P3 report and remediation plan.",
       "author": {
         "name": "Vadym Rusin",
