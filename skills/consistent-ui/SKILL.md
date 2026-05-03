@@ -3,7 +3,6 @@ name: consistent-ui
 description: Enforce UI consistency across an entire codebase, regardless of language, framework, or styling approach. Detects drift in spacing, typography, colors, components, iconography, and interaction patterns across every UI surface. Works for web (React, Vue, Svelte, Angular, Solid, plain HTML/CSS), native mobile (SwiftUI, Jetpack Compose, Flutter, React Native), and server-rendered templates (Blade, ERB, Twig, Razor, JSP, Pug, Liquid). Generates a consistency report with P0-P3 findings and a remediation plan, then optionally fixes drift in place. Use when the user mentions "consistency", "looks different on page X vs Y", "design drift", "unify styles", "audit components", or wants to align a codebase to its design system.
 user-invocable: true
 argument-hint: "[path or feature]"
-license: MIT
 ---
 
 Run a cross-codebase consistency sweep. Unlike `/audit` (technical quality on one surface) or `/polish` (final pass on one feature), this skill compares **every UI surface against every other UI surface** and against the project's design system. The goal: same elements look the same everywhere.
