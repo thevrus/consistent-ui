@@ -1,0 +1,36 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "consistent-ui",
+  "description": "Claude Code skill for cross-codebase UI consistency auditing. Detects design drift across web, mobile, and template stacks.",
+  "owner": {
+    "name": "Vadym Rusin",
+    "email": "rusinvadym@gmail.com",
+    "url": "https://github.com/thevrus"
+  },
+  "plugins": [
+    {
+      "name": "consistent-ui",
+      "version": "1.0.0",
+      "description": "Enforce UI consistency across an entire codebase — detects drift in spacing, typography, colors, components, iconography, and interaction patterns across web, native mobile, and server-rendered templates. Generates a P0-P3 report and remediation plan.",
+      "author": {
+        "name": "Vadym Rusin",
+        "url": "https://github.com/thevrus"
+      },
+      "category": "design",
+      "source": ".",
+      "homepage": "https://github.com/thevrus/consistent-ui",
+      "keywords": [
+        "ui",
+        "design-system",
+        "consistency",
+        "drift-detection",
+        "audit",
+        "tailwind",
+        "swiftui",
+        "compose",
+        "flutter",
+        "react"
+      ]
+    }
+  ]
+}

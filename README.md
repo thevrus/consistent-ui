@@ -34,11 +34,16 @@ Mixed-stack repos are scanned per profile and reported with combined plus per-st
 
 ## Install
 
-### Via the Anthropic plugin marketplace
+### Via Claude Code (recommended)
+
+In any Claude Code session:
 
 ```
-/plugin install consistent-ui
+/plugin marketplace add thevrus/consistent-ui
+/plugin install consistent-ui@consistent-ui
 ```
+
+That's it — the skill will be available globally.
 
 ### Manually (clone into your skills directory)
 
