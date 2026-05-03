@@ -1,0 +1,11 @@
+.DS_Store
+.idea/
+.vscode/
+*.log
+.env
+.env.local
+node_modules/
+
+# Local Claude Code settings (per-developer)
+.claude/settings.local.json
+
